@@ -21,7 +21,11 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $fizzbuzz = new FizzBuzz(3);
         $this->assertEquals(3, $fizzbuzz->numero);
     }
-    //teste teste//
+    public function testdivTres() {
+        $fizz = new Fizz();
+        $existe = is_a($fizz, 'Fizz');
+        $this->assertEquals(true, $existe);
+    }
 }
 
 ?>
