@@ -21,7 +21,27 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $fizzbuzz = new FizzBuzz(3);
         $this->assertEquals(3, $fizzbuzz->numero);
     }
-    //teste//
+    
+
+    public function testRetornaFizz(){
+        $fizzbuzz = new FizzBuzz(3);
+        $this->assertEquals("Fizz", $fizzbuzz->fizz());
+    }
+
+    public function testRetornaBuzz(){
+        $fizzbuzz = new FizzBuzz(5);
+        $this->assertEquals("Buzz", $fizzbuzz->buzz());
+    }
+
+    public function testRetornaFizzBuzz(){
+        $fizzbuzz = new FizzBuzz(15);
+        $this->assertEquals("FizzBuzz", $fizzbuzz->fizzBuzz());
+    }
+
+    public function testRetornaNumero(){
+        $fizzbuzz = new FizzBuzz(8);
+        $this->assertEquals(8, $fizzbuzz->numero);
+    }
 }
 
 ?>
