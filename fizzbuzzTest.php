@@ -31,6 +31,16 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $fizzbuzz = new FizzBuzz(5);
         $this->assertEquals("buzz", $fizzbuzz->divCinco());
     }
+
+    public function testDivTresCinco() {
+        $fizzbuzz = new FizzBuzz(5);
+        $this->assertEquals("fizzbuzz", $fizzbuzz->divTresCinco());
+    }
+
+    public function testNaoDivisivel() {
+        $fizzbuzz = new FizzBuzz(7);
+        $this->assertEquals($numero = null, $fizzbuzz->naoDivisivel());
+    }
 }
 
 ?>
