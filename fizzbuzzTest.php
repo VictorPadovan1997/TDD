@@ -8,7 +8,8 @@
     Passo 6 : Caso não for divisivel por ninguem retornar o numero.
     **/
 
-    require_once('fizzbuzz.php');
+require_once('fizzbuzz.php');
+
     class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         
         public function TestExisteFizzBuzz(){
