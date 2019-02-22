@@ -7,6 +7,7 @@
     Passo 5 : Testar onde for dividido 3 e 5 ele retornar FIZBuzz.
     Passo 6 : Caso não for divisivel por ninguem retornar o numero.
     **/
+
     require_once('fizzbuzz.php');
     class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         
