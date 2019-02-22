@@ -10,32 +10,32 @@
 
 require_once('fizzbuzz.php');
 
-    class fizzbuzzTest extends PHPUnit_Framework_TestCase {
+class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         
-        public function TestExisteFizzBuzz(){
-            $fizzbuzz = new FizzBuzz();
-            $existe = is_a($fizzbuzz, 'FizzBuzz');
-            $this->assertEquals(true, $existe);
-        }
-        public function TestRecebendo() {
-            $fizzbuzz = new FizzBuzz(1);
-            $this->assertEquals(1, $fizzbuzz->numero);
-        }
-        public function Testfizz(){
-            $fizzbuzz = new FizzBuzz(3);
-            $this->assertEquals("Fizz", $fizzbuzz->fizz());
-        }
-        public function Testbuzz(){
-            $fizzbuzz = new FizzBuzz(5);
-            $this->assertEquals("Buzz", $fizzbuzz->buzz());
-        }
-        public function Testfizzbuzz(){
-            $fizzbuzz = new FizzBuzz(15);
-            $this->assertEquals("FizzBuzz", $fizzbuzz->fizzbuzz());
-        }
-        public function Testnumero(){
-            $fizzbuzz = new FizzBuzz(1);
-            $this->assertEquals(1, $fizzbuzz->numero());
-        }
+    public function TestExisteFizzBuzz(){
+        $fizzbuzz = new FizzBuzz();
+        $existe = is_a($fizzbuzz, 'FizzBuzz');
+        $this->assertEquals(true, $existe);
     }
+    public function TestRecebendo() {
+        $fizzbuzz = new FizzBuzz(1);
+        $this->assertEquals(1, $fizzbuzz->numero);
+    }
+    public function Testfizz(){
+        $fizzbuzz = new FizzBuzz(3);
+        $this->assertEquals("Fizz", $fizzbuzz->fizz());
+    }
+    public function Testbuzz(){
+        $fizzbuzz = new FizzBuzz(5);
+        $this->assertEquals("Buzz", $fizzbuzz->buzz());
+    }
+    public function Testfizzbuzz(){
+        $fizzbuzz = new FizzBuzz(15);
+        $this->assertEquals("FizzBuzz", $fizzbuzz->fizzbuzz());
+    }
+    public function Testnumero(){
+        $fizzbuzz = new FizzBuzz(1);
+        $this->assertEquals(1, $fizzbuzz->numero());
+    }
+}
 ?
