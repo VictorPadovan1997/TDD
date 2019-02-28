@@ -24,17 +24,17 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
 
     public function testRetornaFizz() {
         $fizzbuzz = new FizzBuzz(3);
-        $this->assertEquals("fizz", $fizzbuzz->retornaFizz());
+        $this->assertEquals('fizz', $fizzbuzz->retornaFizz());
     }
     
     public function testRetornaBuzz() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("buzz", $fizzbuzz->retornaBuzz());
+        $this->assertEquals('buzz', $fizzbuzz->retornaBuzz());
     }
 
     public function testRetornaFizzbuzz() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("fizzbuzz", $fizzbuzz->retornaFizzbuzz());
+        $this->assertEquals('fizzbuzz', $fizzbuzz->retornaFizzbuzz());
     }
 
     public function testRetornaNumero() {
