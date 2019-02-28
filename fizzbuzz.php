@@ -7,19 +7,19 @@ class FizzBuzz {
         $this->numero = $numero;
     }
 
-    public function divTres($numero = null) {
+    public function dividirPorTres($numero = null) {
         if ($this->numero % 3 == 0) { 
             return "fizz";
         }
     }
 
-    public function divCinco($numero = null) {
+    public function dividirPorCinco($numero = null) {
         if ($this->numero % 5 == 0) {
             return "buzz";
         }
     }
 
-    public function divTresCinco($numero = null) {
+    public function dividirPorAmbos($numero = null) {
         if (($this->numero % 3 && $this->numero % 5) == 0) {
             return "fizzbuzz";
         }

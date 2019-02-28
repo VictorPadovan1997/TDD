@@ -22,19 +22,19 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(3, $fizzbuzz->numero);
     }
 
-    public function testdivTres() {
+    public function testDividirPorTres() {
         $fizzbuzz = new FizzBuzz(3);
-        $this->assertEquals("fizz", $fizzbuzz->divTres());
+        $this->assertEquals("fizz", $fizzbuzz->dividirPorTres());
     }
     
-    public function testdivCinco() {
+    public function testDividirPorCinco() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("buzz", $fizzbuzz->divCinco());
+        $this->assertEquals("buzz", $fizzbuzz->dividirPorCinco());
     }
 
-    public function testDivTresCinco() {
+    public function testDividirPorAmbos() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("fizzbuzz", $fizzbuzz->divTresCinco());
+        $this->assertEquals("fizzbuzz", $fizzbuzz->dividirPorAmbos());
     }
 
     public function testNaoDivisivel() {
