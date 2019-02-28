@@ -37,9 +37,9 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals("fizzbuzz", $fizzbuzz->dividirPorAmbos());
     }
 
-    public function testNaoDivisivel() {
+    public function testRetornarNumero() {
         $fizzbuzz = new FizzBuzz(7);
-        $this->assertEquals($numero = null, $fizzbuzz->naoDivisivel());
+        $this->assertEquals(7, $fizzbuzz->numero);
     }
 }
 

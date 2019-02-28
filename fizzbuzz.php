@@ -25,7 +25,7 @@ class FizzBuzz {
         }
     }
 
-    public function naoDivisivel($numero = null) {
+    public function RetornarNumero($numero = null) {
         if (($this->numero % 3 && $this->numero % 5) != 0) {
             return $numero;
         }
