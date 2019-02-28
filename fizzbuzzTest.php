@@ -28,7 +28,7 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testRetornaBuzz() {
-        $fizzbuzz = new FizzBuzz(5);
+        $fizzbuzz = new FizzBuzz(5,10,15,20);
         $this->assertEquals('buzz', $fizzbuzz->retornaBuzz());
     }
 
