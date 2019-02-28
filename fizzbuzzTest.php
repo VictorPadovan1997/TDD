@@ -22,22 +22,22 @@ class fizzbuzzTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(3, $fizzbuzz->numero);
     }
 
-    public function testDividirPorTres() {
+    public function testRetornaFizz() {
         $fizzbuzz = new FizzBuzz(3);
-        $this->assertEquals("fizz", $fizzbuzz->dividirPorTres());
+        $this->assertEquals("fizz", $fizzbuzz->retornaFizz());
     }
     
-    public function testDividirPorCinco() {
+    public function testRetornaBuzz() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("buzz", $fizzbuzz->dividirPorCinco());
+        $this->assertEquals("buzz", $fizzbuzz->retornaBuzz());
     }
 
-    public function testDividirPorAmbos() {
+    public function testRetornaFizzbuzz() {
         $fizzbuzz = new FizzBuzz(5);
-        $this->assertEquals("fizzbuzz", $fizzbuzz->dividirPorAmbos());
+        $this->assertEquals("fizzbuzz", $fizzbuzz->retornaFizzbuzz());
     }
 
-    public function testRetornarNumero() {
+    public function testRetornaNumero() {
         $fizzbuzz = new FizzBuzz(7);
         $this->assertEquals(7, $fizzbuzz->numero);
     }
