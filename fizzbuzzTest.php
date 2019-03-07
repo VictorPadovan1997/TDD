@@ -2,10 +2,10 @@
 /**
 Passo 1 : Testar se a classe existe.
 Passo 2 : Verificar se esta recebedendo as informações 
-Passo 3 : Testar onde for dividido 3 ele retornar Fizz.
-Passo 4 : Testar onde for dividido 5 ele retornar Buzz.
-Passo 5 : Testar onde for dividido 3 e 5 ele retornar FIZBuzz.
-Passo 6 : Caso não for divisivel por ninguem retornar o numero.
+Passo 3 : Testar onde for dividido 3 ele retornar Fizz.  //VICTOR
+Passo 4 : Testar onde for dividido 5 ele retornar Buzz. //HERON
+Passo 5 : Testar onde for dividido 3 e 5 ele retornar FIZBuzz. //JOYCE
+Passo 6 : Caso não for divisivel por ninguem retornar o numero. //DUDU
  **/
 require_once('fizzbuzz.php');
 
